@@ -10,11 +10,13 @@ body {
   background-color: #CFD8DC;
   width: 30%;
   margin: 20px 5% 20px 5%;
+  
  
 }
 
 .card-title {
   border: 1px solid #607D8B;
+  border-radius: 5px;
   text-align: center;
   font-weight: bold;
 }
@@ -59,4 +61,15 @@ h6 {
 
 li {
   font-size: x-small;
+}
+
+img {
+  border-radius: 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+ 
+.sold-out {
+   position: absolute; 
 }
