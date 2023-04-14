@@ -1,17 +1,19 @@
 body {
+  background-color: #455A64;
   display:flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
 }
 
 .card {
+  background-color: #CFD8DC;
   width: 30%;
   margin: 20px 5% 20px 5%;
-
+ 
 }
 
 .card-title {
-  border: 1px solid lightblue;
+  border: 1px solid #607D8B;
   text-align: center;
 }
 
@@ -22,11 +24,35 @@ body {
 
 footer {
   font-size: xx-small;
+  padding-left: 4px;
+}
+h6 {
+  font-size: small;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.availability {
+  background-color: #607D8B;
+  color: #FF5722;
+  text-shadow: 0px 0px #FF5722;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2px;
 }
 
 .specifications, .pricing {
   font-weight: bold;
   font-size: small;
+}
+
+.specifications > h5 {
+  padding-left: 4px;
+}
+
+.pricing > header > h5 {
+  padding-left: 4px;
 }
 
 li {
