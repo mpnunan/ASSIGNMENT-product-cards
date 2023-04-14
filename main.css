@@ -3,6 +3,7 @@ body {
   display:flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .card {
@@ -15,6 +16,7 @@ body {
 .card-title {
   border: 1px solid #607D8B;
   text-align: center;
+  font-weight: bold;
 }
 
 .card-text {
