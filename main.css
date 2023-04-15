@@ -72,7 +72,6 @@ img {
  
 .sold-out {
    position: absolute;
-   align-self: center;
    opacity: .5;
    top: 70px;
    left: -70px;
