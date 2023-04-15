@@ -71,5 +71,36 @@ img {
 }
  
 .sold-out {
-   position: absolute; 
+   position: absolute;
+   opacity: .5;
+   top: 70px;
+   left: -70px;
+   
+}
+
+
+@media (max-width: 1080px) {
+  .card {
+    flex: 1 29%;
+  }
+  .sold-out {
+   position: absolute;
+   max-width: 100%;
+   top: 80px;
+   left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+.card {
+  flex: 1 29%;
+}
+
+.sold-out {
+  position: absolute;
+  max-width: 100%;
+  top: 100px;
+  left: 0;
+}
+
 }
